@@ -62,4 +62,4 @@ jobs:
           else
             npm i
           fi
-          npm run deploy
+          GIT_USER=laminalfalah DEPLOYMENT_BRANCH=gh-pages npm run deploy
